@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 设置网页文字编码UTF-8 -->
+    <meta charset="utf-8">
+    <!-- 指定手机浏览器的viewport大小(手机浏览器使用viewport来显示网页) -->
+    <!-- 设置viewport宽度为手机屏幕宽度,最大放大比例,缩放比例都为1,用户不允许缩放, 即固定viewport为手机屏幕大小-->
+    <!-- minimal-ui让页面在苹果浏览器时隐藏页面底部菜单 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <!-- 设置屏幕为竖屏 -->
+    <meta name="screen-orientation" content="portrait"/>
+    <!-- 删除默认的苹果工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 禁止将数字链接为拨号操作 -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- 声明为全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- 声明QQ浏览器访问时为全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <title>vue2-try</title>
+  </head>
+  <body>
+    <div id="app">
+    	<router-view></router-view>
+    </div>
+  </body>
+</html>
